@@ -144,8 +144,8 @@ Discovered open port 2049/tcp on 192.168.50.149
 ```
 > From the scan results I see some interesting open ports:
 
-`22 (ssh)` - used for ssh connections (OpenSSH 7.4)
-`80 (web/http)` - web server is running (Apache 2.4.6)
+- `22 (ssh)` - used for ssh connections (OpenSSH 7.4);
+- `80 (web/http)` - web server is running (Apache 2.4.6);
 
 > Open the resource in the browser:
 
