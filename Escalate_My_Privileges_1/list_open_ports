@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Sat Sep 27 14:15:51 2025 as: /usr/lib/nmap/nmap -p- -vv -T5 --min-rate=1000 -oN list_open_ports 192.168.50.149
+Nmap scan report for escmypriv (192.168.50.149)
+Host is up, received arp-response (0.00028s latency).
+Scanned at 2025-09-27 14:15:51 EDT for 76s
+Not shown: 65445 filtered tcp ports (no-response), 81 filtered tcp ports (host-prohibited)
+PORT      STATE  SERVICE REASON
+22/tcp    open   ssh     syn-ack ttl 64
+80/tcp    open   http    syn-ack ttl 64
+111/tcp   open   rpcbind syn-ack ttl 64
+875/tcp   closed unknown reset ttl 64
+2049/tcp  open   nfs     syn-ack ttl 64
+20048/tcp open   mountd  syn-ack ttl 64
+42955/tcp closed unknown reset ttl 64
+46666/tcp closed unknown reset ttl 64
+54302/tcp closed unknown reset ttl 64
+MAC Address: 08:00:27:57:E7:CC (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/share/nmap
+# Nmap done at Sat Sep 27 14:17:07 2025 -- 1 IP address (1 host up) scanned in 75.99 seconds
