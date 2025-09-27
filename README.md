@@ -1,7 +1,7 @@
 ---
 
 <p align="center">
-   <img src="#" alt="Logo"/>
+   <img src="./screenshots/vulnhub-logo.jpg" alt="Logo"/>
 </p>
 
 ---
