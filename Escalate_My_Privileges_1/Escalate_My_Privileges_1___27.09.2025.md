@@ -28,6 +28,8 @@
   </tr>
 </table>
 
+</div>
+
 ---
 ## Table of Contents
 
