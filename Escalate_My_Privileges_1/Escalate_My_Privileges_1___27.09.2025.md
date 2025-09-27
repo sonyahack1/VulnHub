@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./screenshots/vintage_logo.png" alt="vintage_logo"/>
-</p>
-
 ---
 
 <div align="center">
