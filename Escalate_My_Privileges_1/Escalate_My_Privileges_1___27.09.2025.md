@@ -1,4 +1,3 @@
----
 
 <div align="center">
 
@@ -28,8 +27,6 @@
     <td>Linux</td>
   </tr>
 </table>
-
-</div>
 
 ---
 ## Table of Contents
