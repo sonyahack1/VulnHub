@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td align="left" ><b>🎯 Target</b></td>
-    <td>VulnHub - hacksudo: Thor</td>
+    <td>VulnHub - Hacksudo: Thor</td>
   </tr>
   <tr>
     <td align="left" ><b>👨‍💻 Author</b></td>
@@ -40,7 +40,7 @@
 - [Summary](#-%EF%B8%8F--attack-implemented)
 - [Reconnaissance](#%EF%B8%8F--reconnaissance)
 - [Initial Access](#-initial-access)
-- [Horizontal Privilege Escalation](#%EF%B8%8F----vertical-privilege-escalation)
+- [Horizontal Privilege Escalation](#%EF%B8%8F--horizontal-privilege-escalation)
 - [Vertical Privilege Escalation](#%EF%B8%8F----vertical-privilege-escalation)
 - [Conclusion](#-conclusion)
 
@@ -67,7 +67,7 @@
     <tr>
       <td align="left"><b>TA0001 - Initial Access</b></td>
       <td align="left"><b>T1190 - Exploit Public-Facing Application</b></td>
-      <td>Initial system access via `shellshock` exploit in `cgi-bin` script</td>
+      <td>Initial system access via shellshock exploit in cgi-bin script</td>
     </tr>
     <tr>
       <td align="left"><b>TA0002 - Execution</b></td>
@@ -77,7 +77,7 @@
     <tr>
       <td align="left"><b>TA0004 - Privilege Escalation</b></td>
       <td align="left"><b>T1548 - Abuse Elevation Control Mechanism</b></td>
-      <td>exploiting a `misconfigured sudo`</td>
+      <td>exploiting a misconfigured sudo</td>
     </tr>
   </tbody>
 </table>
