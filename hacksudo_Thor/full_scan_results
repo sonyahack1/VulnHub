@@ -1,0 +1,50 @@
+# Nmap 7.95 scan initiated Sun Oct  5 13:53:53 2025 as: /usr/lib/nmap/nmap -p22,80 -vv -A -n -oN full_scan_results 192.168.50.16
+Nmap scan report for 192.168.50.16
+Host is up, received arp-response (0.00049s latency).
+Scanned at 2025-10-05 13:53:53 EDT for 8s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 37:36:60:3e:26:ae:23:3f:e1:8b:5d:18:e7:a7:c7:ce (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSRcer8jyQvBQLNodMY/8sZbjcip1NPmoJkdQZV/Ngm/cXzaUR06OCNKyJM8Blve6Pi86npcZPIs5iuowUH2eTDGRPoH9EbJCbeDRrGyy+CTrdLci3VEmFV8K0rhoYA3nzCPR59CKVdW58OIEMZoJiTzX/I/dH9Mp1XLSLghkirI2YiGJBUhxLyc+03LOTAu/kHC7F1d10/XQjmuspHkfX2PvJsIhzoaKXyo2+CFZNuWkY0/gs+FN9KPdtkMnyv9/+fGn06cYBu/dw7OE9OOcdl2jZUXVT/bEfjK1nNmjp3dAKqOO3iVpciGjCFBgQWvkjakOEpvfd2wAYQHOe9pL7
+|   256 34:9a:57:60:7d:66:70:d5:b5:ff:47:96:e0:36:23:75 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBP/FWnKmPLA1LACd7NDtXVGKDHXYkZmtzC8zhOGcpSD6nnbvhdo4CU4ZoLMAPQfc2Ww6qNCKY9LkmeegGyZBeoM=
+|   256 ae:7d:ee:fe:1d:bc:99:4d:54:45:3d:61:16:f8:6c:87 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ2ClztzZ1xvNlcuG7c24bOcE/UKY3EBFH8Edpcy03vw
+80/tcp open  http    syn-ack ttl 64 Apache httpd 2.4.38 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+MAC Address: 08:00:27:CD:9B:2C (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=10/5%OT=22%CT=%CU=39370%PV=Y%DS=1%DC=D%G=N%M=080027%TM
+OS:=68E2B0B9%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=2%ISR=10B%TI=Z%CI=Z%II=I%
+OS:TS=A)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5
+OS:=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=
+OS:FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Uptime guess: 23.179 days (since Fri Sep 12 09:36:57 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.49 ms 192.168.50.16
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Oct  5 13:54:01 2025 -- 1 IP address (1 host up) scanned in 8.00 seconds
