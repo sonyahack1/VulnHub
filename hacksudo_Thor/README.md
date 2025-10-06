@@ -3,7 +3,7 @@
 
 <img src="./screenshots/escmypriv1_icon.webp" alt="logo" width="120"/>
 
-# VulnHub: Escalate My Privileges: 1
+# VulnHub: hacksudo: Thor
 
 ### 📊 Difficulty: **Easy**
 ### 📁 Category: Linux / Privilege Escalation (sudo misconfig)
