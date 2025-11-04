@@ -1,0 +1,91 @@
+# Nmap 7.95 scan initiated Mon Nov  3 13:47:01 2025 as: /usr/lib/nmap/nmap -p22,80,3306,33060 -A -n -vv -oN scan_results 192.168.50.156
+Nmap scan report for 192.168.50.156
+Host is up, received arp-response (0.00021s latency).
+Scanned at 2025-11-03 13:47:02 EST for 8s
+
+PORT      STATE SERVICE REASON         VERSION
+22/tcp    open  ssh     syn-ack ttl 64 OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 0e:77:d9:cb:f8:05:41:b9:e4:45:71:c1:01:ac:da:93 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCXOd91pBvAeK0CKaRrhpY2TcbujCX4hxoP5/K/fZWGV6qn6HeOopROacEm9L9nHkGfhZyk5v9mA4FWBtPMjHUAfms8tgqDJ/IY4kQU5bnQH+gMpVA1ReJ7myaWzJTKeczWn20wzBW0Zl557PYA5ypNTOw66qgDU6vFxiQoVlbT8/kNRjvhvNuP33i1nhZhSsEZdiIznDfQlPp0ekkmqyNkhwsshFtwsYfSQOW2cpopcpvNGIG38s5FzJGrV3EYFLw4J3C5NhfSSueVhkV+LXCTmJecyxd7S/fsRimPSCR8O0z0aykN/Ts4Qmkrd2mAt8yOtLJ6pFlhTorWsAK7TXCG8xqGseE9LQdUeAk3UTrv3YPak/bdxnxH23pQy9PcNSW2bRKNpg2mKbYuQmpNyjwVaxKs2Jd3rwJwaQ0XT1wVPpi7AtLizDyrtCUpbrR/gFMUITxi0inZG54aNgS668y4ww9R98Rc1WzrwT2z6vzcev2KedzX0KkWJCp3Kdm9+jU=
+|   256 40:51:93:4b:f8:37:85:fd:a5:f4:d7:27:41:6c:a0:a5 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDdiFCHPlrpsgHUZ7TPuOfAk26vdS+LYia6jy6/b+3VF/PiWWxkpvaTyDIKOurj1sLje6IZLi+RCtpIzv5mI4uc=
+|   256 09:85:60:c5:35:c1:4d:83:76:93:fb:c7:f0:cd:7b:8e (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBJsiS3lTHIiHHiGGKretXMXZaFGQEkCOJMEYF2CgP0E
+80/tcp    open  http    syn-ack ttl 64 Apache httpd 2.4.48 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: qdPM | Login
+|_http-server-header: Apache/2.4.48 (Debian)
+|_http-favicon: Unknown favicon MD5: B0BD48E57FD398C5DA8AE8F2CCC8D90D
+3306/tcp  open  mysql   syn-ack ttl 64 MySQL 8.0.26
+| ssl-cert: Subject: commonName=MySQL_Server_8.0.26_Auto_Generated_Server_Certificate
+| Issuer: commonName=MySQL_Server_8.0.26_Auto_Generated_CA_Certificate
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-09-25T10:47:29
+| Not valid after:  2031-09-23T10:47:29
+| MD5:   5b43:7361:8d5b:1938:656d:44a3:4e07:bbcc
+| SHA-1: 5d26:f9ad:743c:f316:6aa5:32ae:fdf8:2571:bb44:91c3
+| -----BEGIN CERTIFICATE-----
+| MIIDBzCCAe+gAwIBAgIBAjANBgkqhkiG9w0BAQsFADA8MTowOAYDVQQDDDFNeVNR
+| TF9TZXJ2ZXJfOC4wLjI2X0F1dG9fR2VuZXJhdGVkX0NBX0NlcnRpZmljYXRlMB4X
+| DTIxMDkyNTEwNDcyOVoXDTMxMDkyMzEwNDcyOVowQDE+MDwGA1UEAww1TXlTUUxf
+| U2VydmVyXzguMC4yNl9BdXRvX0dlbmVyYXRlZF9TZXJ2ZXJfQ2VydGlmaWNhdGUw
+| ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfWVEZUH4Hy0rmiWIpyu3F
+| DzQeZoC9ut3bQrW0Rza7vLLUB2xYaB28LiPu/V0iB6k7CPbjSDWLO/2cG9/QtdqH
+| rlU8lTGiV6S2y3+5hwy2CKNXIKd9oovqMzYkQ/1KXsYb0tIZ5SLJwGmnXu2oMGt3
+| dOMtphjUA51XoZPeNZoCLUhh1AoKrBM5DESg4og8WUczdTfk37ttmkfkuG7xiasu
+| FDGC4IU8PXUuZq3l7f821AxghbsOtjX937AxVtWs2CHDHL8M8GpTuJ8DRBDitPhA
+| +w9GBmXdwbV9z8MfOfu9KQSmRqBQ/QFXY1iepKi4c/4aAkZ6ZpuqmAO6ve0R0Dbn
+| AgMBAAGjEDAOMAwGA1UdEwEB/wQCMAAwDQYJKoZIhvcNAQELBQADggEBADsBSpmN
+| RGDthb5gpyatp6VzBp7fK6r+n9oxBTyNMYv2cic2wyt/l34poAZ8Sh1q38hb8UC8
+| 44cdYZJ3hvqygIx1GT9OeVj3ZLsKMjUePq9ZYjChOpP5VHaymS3oA5d/B790k5xJ
+| U3U8JlUmHwct4CMlWTKeKniFkHBwyimSn5W1O0XamWXsWG0qCTRK+0OTu3Er51V4
+| nDM9lqNlTQU0MIrDvLK2kbwR1FLewc1SLvOSbjY45NNACmnUtxD0OBoYnJWHLJPP
+| PKPYucw6ZEttW+bYddpgTHZAHK9JICN64uAfZZ3OXk4n666A6DBJPD/RJUOtrSOA
+| hYSGLjhxppsFzSc=
+|_-----END CERTIFICATE-----
+|_ssl-date: TLS randomness does not represent time
+| mysql-info: 
+|   Protocol: 10
+|   Version: 8.0.26
+|   Thread ID: 12
+|   Capabilities flags: 65535
+|   Some Capabilities: IgnoreSigpipes, SupportsTransactions, ODBCClient, Speaks41ProtocolOld, SupportsCompression, LongColumnFlag, DontAllowDatabaseTableColumn, FoundRows, LongPassword, SupportsLoadDataLocal, SwitchToSSLAfterHandshake, InteractiveClient, Speaks41ProtocolNew, IgnoreSpaceBeforeParenthesis, Support41Auth, ConnectWithDatabase, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: ;nW\x1A\x1BUVTLk-}z(}P,fG7
+|_  Auth Plugin Name: caching_sha2_password
+33060/tcp open  mysqlx  syn-ack ttl 64 MySQL X protocol listener
+MAC Address: 08:00:27:4C:51:63 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=11/3%OT=22%CT=%CU=36838%PV=Y%DS=1%DC=D%G=N%M=080027%TM
+OS:=6908F8AE%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%
+OS:TS=A)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11NW7%O5
+OS:=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=
+OS:FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Uptime guess: 37.415 days (since Sat Sep 27 04:49:58 2025)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.21 ms 192.168.50.156
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov  3 13:47:10 2025 -- 1 IP address (1 host up) scanned in 9.09 seconds

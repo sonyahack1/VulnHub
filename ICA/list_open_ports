@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Mon Nov  3 13:45:59 2025 as: /usr/lib/nmap/nmap -p- -vv -n -T5 --min-rate=1000 -oN list_open_ports 192.168.50.156
+Nmap scan report for 192.168.50.156
+Host is up, received arp-response (0.000081s latency).
+Scanned at 2025-11-03 13:45:59 EST for 1s
+Not shown: 65531 closed tcp ports (reset)
+PORT      STATE SERVICE REASON
+22/tcp    open  ssh     syn-ack ttl 64
+80/tcp    open  http    syn-ack ttl 64
+3306/tcp  open  mysql   syn-ack ttl 64
+33060/tcp open  mysqlx  syn-ack ttl 64
+MAC Address: 08:00:27:4C:51:63 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/share/nmap
+# Nmap done at Mon Nov  3 13:46:00 2025 -- 1 IP address (1 host up) scanned in 0.53 seconds
