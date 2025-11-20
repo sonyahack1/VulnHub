@@ -434,8 +434,8 @@ thales@miletus:~$
 
 > We have all the necessary ingredients for a `full system compromise` – gaining `root` access:
 
-- 1) The `backup.sh` script has excessive permissions for all other users.
-- 2) The script runs on the system every five minutes as the `root` user.
+- 1 The `backup.sh` script has excessive permissions for all other users.
+- 2 The script runs on the system every five minutes as the `root` user.
 
 > To gain root access, rewrite the `backup.sh` script with the following one-liner:
 
