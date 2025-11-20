@@ -176,7 +176,7 @@ sudo nmap -p$(cat ports.txt) -A -n -vv 192.168.50.48 -oN scan_results
 
 > We see the default page of the `Apache Tomcat` web server.
 
-![IMPORTANT]
+> [!IMPORTANT]
 `Apache Tomcat` is an application and web server designed to run web applications written in `Java`.
 It implements the `Java Servlet`, `JavaServer Pages (JSP)` and, since later versions, `WebSocket` specifications.
 `Tomcat` is used to process dynamic web content, where business logic is implemented as `Servlet classes` and `JSP pages`.
@@ -491,7 +491,7 @@ root@miletus:~#
 ---
 ## 🧠 Conclusion
 
-> ![NOTE]
+> [!NOTE]
 During the execution of this attack, the target system `Thales:1` became `Fully Compromised`.
 
 `Initial scanning and reconnaissance` revealed an `Apache Tomcat web server` running on port `8080`, which was vulnerable to a `bruteforce` attack. Exploiting this weakness allowed
