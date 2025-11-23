@@ -85,7 +85,7 @@
       <td>Using the password obtained from the private .ssh key</td>
     </tr>
     <tr>
-      <td align="left"><b></b></td>
+      <td align="left"><b>TA0004 - Privilege Escalation</b></td>
       <td align="left"><b>T1053.003 - Scheduled Task/Job: Cron</b></td>
       <td>Executing the backup.sh script via cron every five minutes</td>
     </tr>
