@@ -91,11 +91,11 @@
 
 <table>
   <tr>
-    <th>User Flag</th>
+    <th>🟢 User Flag</th>
     <td><code>ICA{Secret_Project}</code></td>
   </tr>
   <tr>
-    <th>Root Flag</th>
+    <th>🟢 Root Flag</th>
     <td><code>ICA{Next_Generation_Self_Renewable_Genetics}</code></td>
   </tr>
 </table>
