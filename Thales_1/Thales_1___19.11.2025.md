@@ -85,7 +85,7 @@
       <td>Using the password obtained from the private .ssh key</td>
     </tr>
     <tr>
-      <td align="left"><b>TA0004 - Privilege Escalation</b></td>
+      <td align="left"><b></b></td>
       <td align="left"><b>T1053.003 - Scheduled Task/Job: Cron</b></td>
       <td>Executing the backup.sh script via cron every five minutes</td>
     </tr>
@@ -96,11 +96,11 @@
 
 <table>
   <tr>
-    <th>User Flag</th>
+    <th>🟢 User Flag</th>
     <td><code>flag{a837c0b5d2a8a07225fd9905f5a0e9c4}</code></td>
   </tr>
   <tr>
-    <th>Root Flag</th>
+    <th>🟢 Root Flag</th>
     <td><code>flag{3a1c85bebf8833b0ecae900fb8598b17}</code></td>
   </tr>
 </table>
