@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Tue Nov 25 13:47:19 2025 as: /usr/lib/nmap/nmap -p- -vv -T5 --min-rate=1500 -oN list_open_ports 192.168.50.235
+Nmap scan report for LupinOne (192.168.50.235)
+Host is up, received arp-response (0.000083s latency).
+Scanned at 2025-11-25 13:47:19 EST for 1s
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack ttl 64
+80/tcp open  http    syn-ack ttl 64
+MAC Address: 08:00:27:BE:94:93 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Nov 25 13:47:20 2025 -- 1 IP address (1 host up) scanned in 0.56 seconds
