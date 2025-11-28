@@ -51,7 +51,7 @@
 
 <div align="center">
 
-<table width="100%">
+<table width="100%" border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
       <th style="min-width: 250px; white-space: nowrap;">Tactics</th>
@@ -100,10 +100,13 @@
 
 <br>
 
+### Tools Used
+
 <table border="1" cellpadding="6" cellspacing="0">
   <tr>
     <th>nmap</th>
     <th>ffuf</th>
+    <th>John</th>
     <th>netcat</th>
     <th>Python</th>
   </tr>
