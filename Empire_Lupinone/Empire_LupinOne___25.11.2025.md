@@ -38,6 +38,7 @@
 ## Table of Contents
 
 - [MITRE](#-%EF%B8%8F--attack-implemented)
+- [Report](#--report)
 - [Reconnaissance](#%EF%B8%8F--reconnaissance)
 - [Initial Access](#-initial-access)
 - [Horizontal Privilege Escalation](#%EF%B8%8F--horizontal-privilege-escalation)
