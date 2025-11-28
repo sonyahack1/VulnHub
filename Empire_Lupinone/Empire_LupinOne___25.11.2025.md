@@ -42,7 +42,7 @@
 - [Reconnaissance](#%EF%B8%8F--reconnaissance)
 - [Initial Access](#-initial-access)
 - [Horizontal Privilege Escalation](#%EF%B8%8F--horizontal-privilege-escalation)
-- [Vertical Privilege Escalation](#%EF%B8%8F----vertical-privilege-escalation)
+- [Vertical Privilege Escalation](#%EF%B8%8F--vertical-privilege-escalation)
 - [Conclusion](#-conclusion)
 
 ---
@@ -77,13 +77,13 @@
     </tr>
     <tr>
       <td align="left"><b>TA0001 - Initial Access</b></td>
-      <td align="left"><b>T1078.003 - Valid Accounts: Local Accounts</b></td>
-      <td>Access was obtained using a <b>private key</b></td>
+      <td align="left"><b>T1133 - External Remote Services</b></td>
+      <td>Access to the system was achieved through an <b>External Remote Service</b> - SSH</td>
     </tr>
     <tr>
       <td align="left"><b>TA0001 - Initial Access</b></td>
-      <td align="left"><b>T1133 - External Remote Services</b></td>
-      <td>Access to the system was achieved through an <b>External Remote Service</b> - SSH</td>
+      <td align="left"><b>T1078.003 - Valid Accounts: Local Accounts</b></td>
+      <td>Access was obtained using a <b>private key</b></td>
     </tr>
     <tr>
       <td align="left"><b>TA0004 - Privilege Escalation</b></td>
@@ -96,6 +96,17 @@
       <td>Exploiting sudo configuration for Vertical Privilege Escalation</td>
     </tr>
   </tbody>
+</table>
+
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th>nmap</th>
+    <th>ffuf</th>
+    <th>netcat</th>
+    <th>Python</th>
+  </tr>
 </table>
 
 <br>
