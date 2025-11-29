@@ -67,7 +67,7 @@
     </tr>
     <tr>
       <td align="left"><b>TA0043 - Reconnaissance</b></td>
-      <td align="left"><b>T1592.003 - Active Scanning: Wordlist Scanning</b></td>
+      <td align="left"><b>T1595.003 - Active Scanning: Wordlist Scanning</b></td>
       <td>A file with an <b>encrypted private key</b> was discovered using <b>Directory and File Fuzzing</b></td>
     </tr>
     <tr>
@@ -263,7 +263,7 @@ Content-Type: text/html
 
 ```
 
-> We get a hint telling us about a `private ssh key` hidden `somewhere here`. It also says the key is protected by a `passphrase` and the brute force dictionary - `fasttrack` (important to remember).
+> We get a hint that `a private SSH key` is hidden `somewhere here`. It also says the key is protected by a `passphrase` and the brute force dictionary - `fasttrack` (important to remember).
 
 > We continue fuzzing in `/~secret/`. Search for the `private ssh key`:
 
