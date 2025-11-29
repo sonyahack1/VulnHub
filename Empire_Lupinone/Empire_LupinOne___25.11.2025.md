@@ -128,11 +128,10 @@
 
 </div>
 
-<p>
-<b>Note:</b> The target is tested in a controlled lab environment via either a provided VPN connection or a downloadable vulnerable machine image.
-For the purposes of this report and <b>MITRE ATT&CK</b> mapping, all compromised services are treated as directly exposed to the internet, simulating a
-real-world external attack surface.
-</p>
+> [!IMPORTANT]
+The target is tested in a controlled lab environment via either `a provided VPN connection` or `a downloadable vulnerable machine image`.
+For the purposes of this report and `MITRE ATT&CK` mapping, all compromised services are treated as directly exposed to the internet,
+simulating a `real-world external attack surface`.
 
 ---
 
