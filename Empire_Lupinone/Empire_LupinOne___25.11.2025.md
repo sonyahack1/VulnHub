@@ -5,7 +5,7 @@
 ---
 <div align="center">
 
-<table>
+<table border="1" cellpadding="6" cellspacing="0">
   <tr>
     <td align="left" ><b>🎯 Target</b></td>
     <td>VulnHub - Empire: LupinOne</td>
@@ -104,17 +104,18 @@
 
 <table border="1" cellpadding="6" cellspacing="0">
   <tr>
-    <th>nmap</th>
+    <th>Nmap</th>
     <th>ffuf</th>
+    <th>curl</th>
     <th>John</th>
-    <th>netcat</th>
+    <th>NetCat</th>
     <th>Python</th>
   </tr>
 </table>
 
 <br>
 
-<table>
+<table border="1" cellpadding="6" cellspacing="0">
   <tr>
     <th>🟢 User Flag</th>
     <td><code>3mp!r3{I_See_That_You_Manage_To_Get_My_Bunny}</code></td>
@@ -127,9 +128,9 @@
 
 </div>
 
-<p align="center">
+<p>
 <b>Note:</b> The target is tested in a controlled lab environment via either a provided VPN connection or a downloadable vulnerable machine image.
-For the purposes of this report and MITRE ATT&CK mapping, all compromised services are treated as directly exposed to the internet, simulating a
+For the purposes of this report and <b>MITRE ATT&CK</b> mapping, all compromised services are treated as directly exposed to the internet, simulating a
 real-world external attack surface.
 </p>
 
